@@ -1,0 +1,51 @@
+.centerfig{
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.button {
+  background-color: tomato; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+img{
+	border-radius:25px
+}
+.floatleft{
+	float: left;
+	margin-left: 200px;
+}
+.floatright{
+		float: right;
+		margin-right: 200px;
+}
+
+.table {
+	display: table;
+	margin-left: auto;
+	margin-right:auto;
+}
+.cell{
+	display: table-cell;
+	padding: 0px 20px;
+}
+
+figure{
+	display: table;
+}
+
+figcaption{
+	display: table-caption;
+	caption-side: top;
+	font-style: italic;
+}
+body.flag {
+ background-image:url(mexicanpg2.jpg);
+background-size:cover;
+background-repeat: no-repeat;}
+p{background-color: rgba(255,255,255, 0.5);
