@@ -16,13 +16,15 @@
 img{
 	border-radius:25px
 }
+
+.clear{
+	clear: both;
+}
 .floatleft{
 	float: left;
-	margin-left: 200px;
 }
 .floatright{
-		float: right;
-		margin-right: 200px;
+	float: right;
 }
 
 .table {
@@ -44,8 +46,38 @@ figcaption{
 	caption-side: top;
 	font-style: italic;
 }
+
+body{
+	padding: 10px 200px;
+}
+
 body.flag {
  background-image:url(mexicanpg2.jpg);
 background-size:cover;
 background-repeat: no-repeat;}
-p{background-color: rgba(255,255,255, 0.5);
+
+body.cover {
+ background-image:url(backroundpg3.jpg);
+background-size:cover;
+background-repeat: no-repeat;}
+
+p{
+	background-color: rgba(255,255,255, 0.5);
+	list-style: inside;
+}
+
+ul {
+	padding: 20px;
+}
+
+ul li{
+	margin: 35 px;
+}
+
+
+
+
+
+
+
+
